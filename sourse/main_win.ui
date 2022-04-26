@@ -14,43 +14,17 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="label_count_buyers">
+   <widget class="QPushButton" name="button_buyers">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>20</y>
-      <width>111</width>
-      <height>16</height>
+      <x>10</x>
+      <y>70</y>
+      <width>151</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
      <string>Покупателей: 0</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_count_goods">
-    <property name="geometry">
-     <rect>
-      <x>180</x>
-      <y>50</y>
-      <width>111</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Товаров: 0</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_count_products">
-    <property name="geometry">
-     <rect>
-      <x>130</x>
-      <y>20</y>
-      <width>111</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Товаров: 0</string>
     </property>
    </widget>
   </widget>
@@ -60,7 +34,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>21</height>
+     <height>26</height>
     </rect>
    </property>
   </widget>

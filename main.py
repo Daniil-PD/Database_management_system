@@ -26,7 +26,6 @@ class MainWindow(QtWidgets.QMainWindow, main_window.Ui_MainWindow):
         self.setupUi(self)
 
 
-        self.updating_schedule()
 
 
 
@@ -38,10 +37,7 @@ def main():
 
     app = QtWidgets.QApplication(sys.argv)
 
-    w = QtWidgets.QWidget()
-    w.resize(250, 150)
-    w.move(300, 300)
-    w.setWindowTitle('Simple')
+    w = MainWindow()
     w.show()
 
     sys.exit(app.exec_())
